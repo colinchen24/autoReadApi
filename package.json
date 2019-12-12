@@ -1,0 +1,22 @@
+{
+  "name": "rerunApp",
+  "version": "0.0.1",
+  "private": true,
+  "config": {
+    "target": "dev"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "body-parser": "^1.19.0",
+    "express": "3.4.x",
+    "fs": "0.0.1-security",
+    "mongoose": "4.9.6",
+    "nedb": "^1.8.0",
+    "nodemailer": "^6.3.1",
+    "q": "0.9.x",
+    "underscore": "1.5.x"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.15"
+  }
+}
