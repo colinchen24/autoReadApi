@@ -2,13 +2,7 @@ var _ = require('underscore');
 var mongoose = require('mongoose');
 var monitorSchema = new mongoose.Schema({
     url: String,
-    size:String,
-    frequency: String,
-    email: String,
-    price: String,
-    discount: String,
-    status:{ type:String,'default':'disabled'},
-    time : String,
+    appName:String,
     utctime: Date
 }, 
 {collection: "monitor"}

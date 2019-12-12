@@ -22,7 +22,7 @@ module.exports = function(conf) {
     });
     
     app.use(app.router);  
-    mongoose.connect("mongodb://ccmm:cc24@176.122.147.10:50107/monitor");
+    mongoose.connect("mongodb://ccmm:cc24@104.225.156.192:50107/monitor");
     // mongoose.connect("mongodb://katieh:20160704.kh@127.0.0.1:50107/monitor")
     var db = mongoose.connection;
     db.on("connected", function () {
