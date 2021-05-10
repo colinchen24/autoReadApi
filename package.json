@@ -17,6 +17,6 @@
     "underscore": "1.5.x"
   },
   "devDependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   }
 }
